@@ -73,7 +73,12 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data, function(error){
+        if(error) throw error;
+        console.log("file generated");
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -117,8 +122,7 @@ ${response.description}
 if you have any questions feel free to reach out by email ${response.questions}
 `
 console.log(reply);
-writeToFile("README.md",
-)
+writeToFile("README.md",reply)
     })
 }
 
