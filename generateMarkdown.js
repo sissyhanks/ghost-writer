@@ -64,7 +64,6 @@ ${renderLicenseBadge()}
 * [Usage](#usage)
 * [Contributing](#contributing)
 ${renderLicenseLink()}
-* [GitHub](#githubUserName)
 * [Contact](#contact)
 
 ## Installation

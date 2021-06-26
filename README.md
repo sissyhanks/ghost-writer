@@ -15,7 +15,6 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [GitHub](#githubUserName)
 - [Contact](#contact)
 
 ## Installation
