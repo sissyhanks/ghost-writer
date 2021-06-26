@@ -71,12 +71,13 @@ function init() {
         const reply = generateMarkdown(response);
 
 console.log(reply);
-writeToFile("READMEME.md",reply)
+writeToFile("README.md",reply)
     })
 }
 
-// ## License
-// ![Github License](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
 // Function call to initialize app
 init();
+
+
+// (https://img.shields.io/badge/license-${response.license}-blue.svg)
