@@ -78,6 +78,3 @@ writeToFile("README.md",reply)
 
 // Function call to initialize app
 init();
-
-
-// (https://img.shields.io/badge/license-${response.license}-blue.svg)
